@@ -5,12 +5,12 @@
 
 ![Screenshot 2023-05-25 013019](https://github.com/KILLER-RAMADAN/Password-Generator/assets/90656786/3b11bc14-d43b-4e5a-88e4-48384f2843a5)
 
-# or just upper latters
+# or just upper letters
 
 ![Screenshot 2023-05-25 013050](https://github.com/KILLER-RAMADAN/Password-Generator/assets/90656786/959a1d74-4251-4f46-bb98-4f8dbb119fdf)
 
 
-# or just lower latters
+# or just lower letters
 
 ![Screenshot 2023-05-25 104609](https://github.com/KILLER-RAMADAN/Password-Generator/assets/90656786/7759e787-91e7-42b1-8059-5fe57fe8d265)
 
