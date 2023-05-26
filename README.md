@@ -24,6 +24,11 @@
 ![Screenshot 2023-05-25 104744](https://github.com/KILLER-RAMADAN/Password-Generator/assets/90656786/16d3c621-db82-4688-aa8b-c5eb7da1e760)
 
 
+# Preview
+
+https://github.com/KILLER-RAMADAN/Password-Generator/assets/90656786/5f591ce2-5f61-4ce2-be87-16ff7553fd62
+
+
 # BY Ahmed RAMADAN
 
 
