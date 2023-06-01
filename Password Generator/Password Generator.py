@@ -9,15 +9,22 @@ class password(tk.Tk):
     def Passwod_generator(self):
         if self.entry_length.get()=="":
          messagebox.showerror("Eroor","Enter Password Length..")
+         
+        elif int(self.entry_length.get())>=130:
+            messagebox.showinfo("Password Manager","You Have At Least Access To '129' Char\nAt All Options..")    
+             
         elif not self.with_numbers and not self.with_sympol and not self.with_upper and not self.with_lower:
+            self.password_entry.delete(0,1000)
             messagebox.showerror("Eroor","Enable At Least One Option...")
+        
         else:
+          
          self.password_entry.delete(0,1000)
          self.all=""
-         self.ubber_case="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-         self.lower_case="abcdefghijklmnopqrstuvwxyz"
-         self.numbers="12345678910112233445566778899003344556677889900"
-         self.sympols="''&!?\/|#$%^*()_-+=:;,``~"
+         self.ubber_case="ABCDEFGHIJKLMNOPQRSTUVWXYZ" # 26 char
+         self.lower_case="abcdefghijklmnopqrstuvwxyz" # 26 char
+         self.numbers=random.randint(1000,100000000000000000000000000000000000000000000000) # 47 num
+         self.sympols="@''&!?\/|#$%^*()_-+=:;,``~><][" # 30 sym
          
          if self.with_sympol:
              self.all+=str(self.sympols)
@@ -36,7 +43,7 @@ class password(tk.Tk):
          for latter in range(many_time):    
           finally_password="".join(random.sample(self.all,many_latters))
          
-          entry_password=self.password_entry.insert(0,finally_password)
+          entry_password=self.password_entry.insert(1,finally_password)
          
           return entry_password
     
@@ -77,7 +84,8 @@ class password(tk.Tk):
            self.with_lower=False  
     def info(self):
         messagebox.showinfo('Info','''1) Dont Forget To Enter Length Of Your Password Then Click Generate Password...
-2) Enable At Least One Option To Get Your Password...''')
+2) Enable At Least One Option To Get Your Password...
+3)You Have Access To '129' char With All Options....''')
 
     def my_git_hub(self):
         webbrowser.open("https://github.com/KILLER-RAMADAN") 
@@ -140,7 +148,7 @@ class password(tk.Tk):
         
         
         ########
-        self.make_random_pass=tk.Button(self,text="Generate Password",bg="green",height=2,relief="groove",fg="white",command=self.Passwod_generator)
+        self.make_random_pass=tk.Button(self,text="Generate Password",bg="green",height=2,activeforeground="white",activebackground="green",relief="raised",fg="white",command=self.Passwod_generator)
         
         self.make_random_pass.place(x=140,y=125)
         
