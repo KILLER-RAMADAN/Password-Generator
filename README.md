@@ -1,31 +1,11 @@
 # Password-Generator 
-![password](https://github.com/KILLER-RAMADAN/Password-Generator/assets/90656786/06c6741d-3229-4e77-90ee-c199b76c0994)
-
-
-# Just Numbers
-
-![Screenshot 2023-05-25 013019](https://github.com/KILLER-RAMADAN/Password-Generator/assets/90656786/3b11bc14-d43b-4e5a-88e4-48384f2843a5)
-
-# or just upper letters
-
-![Screenshot 2023-05-25 013050](https://github.com/KILLER-RAMADAN/Password-Generator/assets/90656786/959a1d74-4251-4f46-bb98-4f8dbb119fdf)
-
-
-# or just lower letters
-
-![Screenshot 2023-05-25 104609](https://github.com/KILLER-RAMADAN/Password-Generator/assets/90656786/7759e787-91e7-42b1-8059-5fe57fe8d265)
-
-# or all of them
-
-![Screenshot 2023-05-25 013128](https://github.com/KILLER-RAMADAN/Password-Generator/assets/90656786/344677c7-5188-4834-ba8d-00fe3c6eb77a)
+![image](https://github.com/KILLER-RAMADAN/Password-Generator/assets/90656786/dde18692-eac4-4fc9-8a23-0631398bb77b)
 
 # give you all access to do what you want
 
-![Screenshot 2023-05-25 104744](https://github.com/KILLER-RAMADAN/Password-Generator/assets/90656786/16d3c621-db82-4688-aa8b-c5eb7da1e760)
-
+![image](https://github.com/KILLER-RAMADAN/Password-Generator/assets/90656786/164cc6c4-ba91-44fa-a037-6c3cf2373b9f)
 
 # Preview
-
 https://github.com/KILLER-RAMADAN/Password-Generator/assets/90656786/5f591ce2-5f61-4ce2-be87-16ff7553fd62
 
 
