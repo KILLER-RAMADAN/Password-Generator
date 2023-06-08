@@ -32,7 +32,7 @@ class password(tk.Tk):
          self.all=""
          self.ubber_case="ABCDEFGHIJKLMNOPQRSTUVWXYZ" # 26 char
          self.lower_case="abcdefghijklmnopqrstuvwxyz" # 26 char
-         self.numbers=random.randint(1000,100000000000000000000000000000000000000000000000) # 47 num
+         self.numbers=random.randint(1000,10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000) # 75 num
          self.sympols="@''&!?\/|#$%^*()_-+=:;,``~><][" # 30 sym
          
          if self.with_sympol:
@@ -96,7 +96,7 @@ class password(tk.Tk):
     def info(self):
         messagebox.showinfo('Info','''1) Dont Forget To Enter Length Of Your Password Then Click Generate Password...
 2) Enable At Least One Option To Get Your Password...
-3)You Have Access To '129' char With All Options....''')
+3)You Have Access To '185' char With All Options....''')
 
     
     def copy_pass(self):
@@ -156,7 +156,7 @@ class password(tk.Tk):
         
         self.ran_label.place(x=360,y=5)
         
-        self.password_lablel=tk.Label(self,text="Your Password:",font=("arial,7,bold"))
+        self.password_lablel=tk.Label(self,text="Your Password:",font=("arial,7,bold"),relief="solid")
         
         self.password_lablel.place(x=0,y=50)
         
@@ -165,11 +165,11 @@ class password(tk.Tk):
         
         
         self.password_entry=tk.Entry(self,width=31,font=("arial,5,bold"),relief="solid",highlightcolor="red",highlightthickness=2)
-        self.password_entry.place(x=145,y=50)
+        self.password_entry.place(x=150,y=50)
         
         
         
-        self.length_label=tk.Label(self,text="Password Length:",font=("arial,7,bold"))
+        self.length_label=tk.Label(self,text="Password Length:",font=("arial,7,bold"),relief="solid")
         
         self.length_label.place(x=0,y=100)
         
@@ -181,7 +181,7 @@ class password(tk.Tk):
         
         self.entry_length=tk.Entry(self,width=5,font=("arial,10,bold"),relief="solid",highlightcolor="green",highlightthickness=2)
         
-        self.entry_length.place(x=162,y=100)
+        self.entry_length.place(x=165,y=100)
         
         
         
